@@ -115,4 +115,4 @@ This repository is open-source and available under the MIT License.
 
 ---
 
-  ![Progress](https://progress-bar.dev/30/?title=Completed)  <!-- For 30% done -->
+
