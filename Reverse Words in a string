@@ -1,0 +1,8 @@
+s = s.strip()  # Remove leading and trailing spaces
+words = s.split()  # Split the string into words
+r = []
+
+for i in range(len(words) - 1, -1, -1):
+    r.append(words[i])  # Append words in reverse order
+
+return " ".join(r)
