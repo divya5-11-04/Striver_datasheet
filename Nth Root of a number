@@ -1,0 +1,16 @@
+def nth_root(N: int, M: int) -> int:
+    low = 1
+    high = M
+
+    while low <= high:
+        mid = (low + high) // 2
+        power = mid ** N
+
+        if power == M:
+            return mid
+        elif power < M:
+            low = mid + 1
+        else:
+            high = mid - 1
+
+    return -1  
