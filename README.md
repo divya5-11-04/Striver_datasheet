@@ -2,11 +2,6 @@
 
 # 🚀 Striver's SDE Sheet Journey
 
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/striver-sde-sheet)
-![GitHub stars](https://img.shields.io/github/stars/your-username/striver-sde-sheet?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/striver-sde-sheet?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/striver-sde-sheet)
-
 Welcome to my personal repository where I solve and document my journey through [Striver's SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/), a powerful 60-day challenge to help you master coding interview problems.
 
 ---
