@@ -1,0 +1,21 @@
+class Solution:
+    def findMissingRepeatingNumbers(self, nums):
+        nums.sort()
+        A = 0  # Repeating
+        B = 0  # Missing
+        c = 1  # Expected number
+
+        for i in range(len(nums)-1):
+            if nums[i] == nums[i+1]:
+                A = nums[i]
+            elif nums[i] != c:
+                B = c
+                c += 1
+            else:
+                c += 1
+
+        # Handle last number
+        if nums[-1] != len(nums):
+            B = len(nums)
+
+        return [A, B]
