@@ -1,0 +1,20 @@
+class Solution:
+    def maximizeXor(self, nums: List[int], queries: List[List[int]]) -> List[int]:
+        nums.sort(); answer = []; append = answer.append
+        for x, m in queries:
+            if nums[0] > m:
+                append(-1); continue
+            start, stop = 0, bisect_right(nums, m); num = 0; bit = 2 ** m.bit_length()
+            while bit:
+                plus = num + bit
+                if nums[start] >= plus:
+                    num = plus
+                elif nums[stop-1] >= plus:
+                    cut = bisect_left(nums, plus, start, stop)
+                    if x & bit:
+                        stop = cut
+                    else:
+                        start = cut; num = plus
+                bit //= 2
+            append(num ^ x)
+        return answer
