@@ -2,7 +2,7 @@
 
 # 🚀 Striver's SDE Sheet Journey
 
-Welcome to my personal repository where I solve and document my journey through [Striver's SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/), a powerful 60-day challenge to help you master coding interview problems.
+Welcome to my personal repository where I solve and document my journey through [Striver's SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/), a powerful challenge to help you master coding interview problems.
 
 ---
 
